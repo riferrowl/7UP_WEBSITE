@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  padding: 14px 24px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff;
+  padding-top: 115px;
+  /* Adjust according to header height */
+}
+
+section {
+  height: 500px;
+  padding: 10px 0;
+}
+
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+
+  font-size: 18px;
+
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  padding: 20px 54px;
+  border-radius: 100px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(10, 91, 43, 0.8);
+}
+
+
+
+
+.writes {
+  gap: 20px;
+  position: relative;
+  display: flex;
+  letter-spacing: 1.2px;
+  color: #fff;
+
+  font-weight: 500;
+  padding-top: 30px;
+  padding-left: 150px;
+}
+
+.writes {
+  font-size: 18px !important;
+}
+
+.right-logos {
+  padding-top: 25px;
+
+  padding-right: 50px;
+}
+
+.logo-left {
+  align-items: center;
+  padding: 20x;
+  padding-right: 500px;
+}
+
+.full-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #00d20b;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+  justify-content: space-between;
+  display: flex;
+  z-index: 1000;
+  /* Ensures header stays above other content */
+}
+
+
+.layer-1 {
+  background-image: url('IMAGES/tropical-header.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.layer-1 .container {
+  margin-top: 220px;
+  margin-left: 100px;
+}
+
+.layer-1 .container p {
+  font-size: 60px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 900;
+
+  color: white;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+
+.layer-2 {
+  background-image: url('IMAGES/image2.webp');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+
+.layer-2 .wrapper h2 {
+  font-size: 34px;
+}
+
+.layer-2 .wrapper p {
+  width: 600px;
+  padding: 20px 0;
+}
+
+.layer-3 {
+  background-image: url('IMAGES/image1.webp');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+}
+
+.layer-3 .wrapper h2 {
+  font-size: 34px;
+}
+
+.layer-3 .wrapper p {
+  width: 600px;
+  padding: 20px 0;
+}
+
+footer {
+  padding: 14px 0;
+  background-color: rgb(62, 62, 62);
+}
+
+footer .list-1 {
+  width: 50%;
+  margin: 0 auto;
+}
+
+footer .list-1 ul {
+  list-style-type: none;
+  display: flex;
+}
+
+footer .list-1 ul li {
+  flex: auto;
+  gap: 10px;
+}
+
+footer .list-1 ul li a {
+  font-size: 12px;
+}
+
+footer .text-msg {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  padding-bottom: 35px;
+  padding-top: 20px;
+}
